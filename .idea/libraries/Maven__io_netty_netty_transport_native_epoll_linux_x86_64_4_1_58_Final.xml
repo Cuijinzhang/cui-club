@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.58.Final" type="java-imported" external-system-id="Maven">
+    <properties groupId="io.netty" artifactId="netty-transport-native-epoll" version="4.1.58.Final" classifier="linux-x86_64" />
+    <CLASSES>
+      <root url="jar://E:/apache-maven-3.6.1/mvn_repo/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final-linux-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/apache-maven-3.6.1/mvn_repo/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/apache-maven-3.6.1/mvn_repo/io/netty/netty-transport-native-epoll/4.1.58.Final/netty-transport-native-epoll-4.1.58.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

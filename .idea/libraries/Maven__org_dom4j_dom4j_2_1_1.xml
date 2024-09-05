@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: org.dom4j:dom4j:2.1.1" type="java-imported" external-system-id="Maven">
+    <properties groupId="org.dom4j" artifactId="dom4j" version="2.1.1" />
+    <CLASSES>
+      <root url="jar://E:/apache-maven-3.6.1/mvn_repo/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/apache-maven-3.6.1/mvn_repo/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/apache-maven-3.6.1/mvn_repo/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

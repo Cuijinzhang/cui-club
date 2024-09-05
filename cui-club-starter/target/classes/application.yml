@@ -1,0 +1,64 @@
+# 服务器配置
+server:
+  # 应用程序运行的端口
+  port: 3010
+
+# Spring框架配置
+spring:
+  datasource:
+    # MySQL数据库的用户名
+    username: root
+    # 加密的数据库连接密码
+    password: S/+NVzIxBLTfTLrDxJxs4B+Zy5RJKgc6YCg6FyRowIbR/643S75Us0YnClTK9o70mfdvC40L7AYW7ML6XgZ+Tg==
+    # MySQL的驱动类名
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 连接MySQL数据库的JDBC URL
+    url: jdbc:mysql://localhost:3306/my-club?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&useSSL=false
+    # 指定使用的DataSource类型
+    type: com.alibaba.druid.pool.DruidDataSource
+    # Druid数据源的配置
+    druid:
+      # 初始化时创建的连接数
+      initial-size: 20
+      # 池中最小的空闲连接数
+      min-idle: 20
+      # Druid连接属性，包括解密设置
+      connectionProperties: config.decrypt=true;config.decrypt.key=${publicKey};
+      # 最大活动连接数
+      max-active: 100
+      # 获取连接时的最大等待时间
+      max-wait: 60000
+      # Druid监控视图Servlet的配置
+      stat-view-servlet:
+        # 启用监控视图Servlet
+        enabled: true
+        # 访问Druid监控视图的URL模式
+        url-pattern: /druid/*
+        # 登录监控视图的用户名
+        login-username: admin
+        # 登录监控视图的密码
+        login-password: 123456
+      # Druid的过滤器配置
+      filter:
+        # 统计过滤器的配置
+        stat:
+          # 启用统计过滤器
+          enabled: true
+          # 慢SQL查询的阈值（毫秒）
+          slow-sql-millis: 2000
+          # 记录慢SQL查询
+          log-slow-sql: true
+        # 启用防火墙过滤器，以防止SQL注入攻击
+        wall:
+          enabled: true
+        # 启用配置过滤器
+        config:
+          enabled: true
+
+# 用于解密的公钥
+publicKey: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJpf7XgNsOw2NuuhUnSEg53wec+gqAlDLq4+j6jzELK9gK4n3CZXRYtuAxICuyGbk6xARHJzbmrW3GkXbNWP0MECAwEAAQ==
+
+# 日志配置
+logging:
+  # Log4j2配置文件的位置
+  config: classpath:log4j2-spring.xml

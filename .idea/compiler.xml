@@ -2,10 +2,15 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+<<<<<<< HEAD
+=======
+      <profile default="true" name="Default" enabled="true" />
+>>>>>>> 96e944b90f50b984307c31a9adf0921d55fff80f
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="cui-club-common" />
         <module name="cui-club-infra" />
         <module name="cui-club-subject-api" />
@@ -35,5 +40,18 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cui-club-gen" options="-parameters" />
     </option>
+=======
+        <module name="cui-club-application-controller" />
+        <module name="cui-club-common" />
+        <module name="cui-club-infra" />
+        <module name="cui-club-subject-api" />
+        <module name="cui-club-domain" />
+        <module name="cui-club-application-job" />
+        <module name="cui-club-application-mq" />
+        <module name="cui-club-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+>>>>>>> 96e944b90f50b984307c31a9adf0921d55fff80f
   </component>
 </project>
