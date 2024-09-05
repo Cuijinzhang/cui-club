@@ -5,8 +5,8 @@ import lombok.Getter;
 /**
  * code枚举
  * 
- * @author: ChickenWing
- * @date: 2023/10/28
+ * @author: cui
+ * @date: 2024/7/28
  */
 @Getter
 public enum ResultCodeEnum {

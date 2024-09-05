@@ -7,8 +7,8 @@ import java.io.Serializable;
 /**
  * 权限dto
  * 
- * @author: ChickenWing
- * @date: 2023/11/3
+ * @author: cui
+ * @date: 2024/8/27
  */
 @Data
 public class AuthPermissionBO implements Serializable {

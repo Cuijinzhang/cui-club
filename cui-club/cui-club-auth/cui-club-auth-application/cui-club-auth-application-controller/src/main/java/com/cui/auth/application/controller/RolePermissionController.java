@@ -18,8 +18,8 @@ import javax.annotation.Resource;
 /**
  * 角色权限controller
  *
- * @author: ChickenWing
- * @date: 2023/11/2
+ * @author: cui
+ * @date: 2024/8/26
  */
 @RestController
 @RequestMapping("/rolePermission/")

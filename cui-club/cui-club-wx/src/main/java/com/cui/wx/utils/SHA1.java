@@ -8,8 +8,8 @@ import java.util.Arrays;
 /**
  * sha1生成签名工具
  *
- * @author: ChickenWing
- * @date: 2023/11/5
+ * @author: cui
+ * @date: 2024/8/27
  */
 @Slf4j
 public class SHA1 {

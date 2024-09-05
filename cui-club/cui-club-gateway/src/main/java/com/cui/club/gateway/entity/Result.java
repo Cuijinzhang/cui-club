@@ -6,8 +6,8 @@ import lombok.Data;
 /**
  * result统一
  * 
- * @author: ChickenWing
- * @date: 2023/10/28
+ * @author: cui
+ * @date: 2024/7/28
  */
 @Data
 public class Result<T> {

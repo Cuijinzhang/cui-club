@@ -7,8 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * 微信服务启动器
  * 
- * @author: ChickenWing
- * @date: 2023/10/11
+ * @author: cui
+ * @date: 2024/7/11
  */
 @SpringBootApplication
 @ComponentScan("com.jingdianjichi.wx")

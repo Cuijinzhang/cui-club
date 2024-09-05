@@ -3,8 +3,8 @@ package com.cui.oss.entity;
 /**
  * 文件类
  * 
- * @author: ChickenWing
- * @date: 2023/10/12
+ * @author: cui
+ * @date: 2024/7/12
  */
 public class FileInfo {
 

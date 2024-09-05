@@ -12,8 +12,8 @@ import java.util.Map;
 /**
  * 题目类型工厂
  *
- * @author: ChickenWing
- * @date: 2023/10/5
+ * @author: cui
+ * @date: 2024/7/5
  */
 @Component
 public class SubjectTypeHandlerFactory implements InitializingBean {

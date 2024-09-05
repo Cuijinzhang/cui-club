@@ -10,8 +10,8 @@ import java.util.List;
 /**
  * 标签dto的转换
  * 
- * @author: ChickenWing
- * @date: 2023/10/3
+ * @author: cui
+ * @date: 2024/7/3
  */
 @Mapper
 public interface SubjectLabelDTOConverter {

@@ -11,8 +11,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * 文件存储config
  *
- * @author: ChickenWing
- * @date: 2023/10/14
+ * @author: cui
+ * @date: 2024/7/14
  */
 @Configuration
 @RefreshScope

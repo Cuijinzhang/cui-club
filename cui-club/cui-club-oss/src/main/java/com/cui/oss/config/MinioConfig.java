@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 /**
  * minio配置管理
  *
- * @author: ChickenWing
- * @date: 2023/10/11
+ * @author: cui
+ * @date: 2024/7/11
  */
 @Configuration
 public class MinioConfig {

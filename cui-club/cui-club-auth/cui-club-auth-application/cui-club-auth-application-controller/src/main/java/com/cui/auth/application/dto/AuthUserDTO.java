@@ -8,8 +8,8 @@ import java.util.Date;
 /**
  * 用戶信息dto
  *
- * @author: ChickenWing
- * @date: 2023/11/1
+ * @author: cui
+ * @date: 2024/8/26
  */
 @Data
 public class AuthUserDTO implements Serializable {

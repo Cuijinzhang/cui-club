@@ -7,8 +7,8 @@ import java.util.List;
 /**
  * 题目标签领域服务
  * 
- * @author: ChickenWing
- * @date: 2023/10/3
+ * @author: cui
+ * @date: 2024/7/3
  */
 public interface SubjectLabelDomainService {
 

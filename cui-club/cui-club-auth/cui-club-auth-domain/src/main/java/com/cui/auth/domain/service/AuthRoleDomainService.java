@@ -5,8 +5,8 @@ import com.cui.auth.domain.entity.AuthRoleBO;
 /**
  * 角色领域service
  * 
- * @author: ChickenWing
- * @date: 2023/11/1
+ * @author: cui
+ * @date: 2024/8/26
  */
 public interface AuthRoleDomainService {
 

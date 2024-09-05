@@ -9,8 +9,8 @@ import java.util.List;
 /**
  * 分页返回实体
  *
- * @author: ChickenWing
- * @date: 2023/10/5
+ * @author: cui
+ * @date: 2024/7/5
  */
 @Data
 public class PageResult<T> implements Serializable {

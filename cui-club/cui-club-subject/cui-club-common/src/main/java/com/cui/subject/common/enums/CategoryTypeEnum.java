@@ -5,8 +5,8 @@ import lombok.Getter;
 /**
  * 分类类型枚举
  * 
- * @author: ChickenWing
- * @date: 2023/10/3
+ * @author: cui
+ * @date: 2024/7/3
  */
 @Getter
 public enum CategoryTypeEnum {

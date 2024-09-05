@@ -8,8 +8,8 @@ import org.mapstruct.factory.Mappers;
 /**
  * 权限dto转换器
  * 
- * @author: ChickenWing
- * @date: 2023/10/8
+ * @author: cui
+ * @date: 2024/7/8
  */
 @Mapper
 public interface AuthRolePermissionDTOConverter {

@@ -7,8 +7,8 @@ import com.cui.auth.domain.entity.AuthUserBO;
 /**
  * 用户领域service
  * 
- * @author: ChickenWing
- * @date: 2023/11/1
+ * @author: cui
+ * @date: 2024/8/26
  */
 public interface AuthUserDomainService {
 
